@@ -1,5 +1,3 @@
-### Пример реализации игры "Битва героев"
-
 class Hero:
     def __init__(self, name):
         self.name = name
@@ -37,6 +35,6 @@ class Game:
 # Запуск игры
 if __name__ == "__main__":
     player_name = input("Введите имя вашего героя: ")
-    computer_name = "Компьютерный Герой"
+    computer_name = "MONSTER"
     game = Game(player_name, computer_name)
     game.start()
